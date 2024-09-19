@@ -1,0 +1,17 @@
+{
+  "name": "template-nobuild-talla-next",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Template: no-build JS starter with Tälla UI (unstable)",
+  "type": "module",
+  "scripts": {
+    "postinstall": "node postinstall",
+    "serve": "http-server site -g"
+  },
+  "license": "MIT",
+  "prettier": {},
+  "devDependencies": {
+    "http-server": "latest",
+    "@talla-ui/web-handler": "next"
+  }
+}

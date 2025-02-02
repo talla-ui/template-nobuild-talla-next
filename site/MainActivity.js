@@ -2,7 +2,7 @@ import { $activity, Activity, ui } from "./lib/talla-web.es2022.esm.min.js";
 
 const view = ui.cell(
   ui.column(
-    { gravity: "center", distribute: "center" },
+    { gravity: "center" },
     ui.label($activity("count"), {
       style: { fontSize: 40, tabularNums: true },
     }),
